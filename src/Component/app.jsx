@@ -11,8 +11,7 @@ function YandexDictionary() {
     const [word, setWord] = useState("");
     const [langValue, setLangValue] = useState("en-ru");
     const [response, setResponse] = useState();
-
-    // const key = "dict.1.1.20210927T103643Z.6d574f2e7a88fd9b.ac284442f3121fa78aecf679cbd83dcd60f675fd";
+   
     const key = "dict.1.1.20201201T163137Z.5c6593134cc1fcb4.7ea53295a0777094051036688cd986b837fc9391";
     const mainLink = (`https://dictionary.yandex.net/api/v1/dicservice.json/lookup?key=${key}&lang=${langValue}&text=${word}`)
 
