@@ -1,1 +1,1 @@
-# Mirzayevsky.github.io-Yandex-dictionary
+Yandex Translate
